@@ -44,9 +44,10 @@ class _WebViewScreenState extends State<WebViewScreen> {
               });
             },
           ),
+          
 
 
-          isLoading ? Center( child: CircularProgressIndicator(),)
+          isLoading ? Center( child: CircularProgressIndicator(),) //checking wheather isLoading is true or not if true then it will show CircularProgressIndicator
               : Stack(),
 
         ],
